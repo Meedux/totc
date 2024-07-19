@@ -21,8 +21,8 @@ const HeroContainer = () => {
                 </p>
               </div>
 
-              <div className="flex items-center justify-between w-[60%]">
-                <button className="bg-[#7ECBCC] text-[24px] text-white font-bold py-2 px-5 rounded-full">
+              <div className="flex items-center justify-between w-[70%]">
+                <button className="bg-[#7ECBCC] font-poppins text-[24px] text-white font-bold py-2 px-5 rounded-full">
                   Join for free
                 </button>
 
@@ -30,7 +30,7 @@ const HeroContainer = () => {
                   <div className="bg-white rounded-full w-12 h-12 flex items-center justify-center">
                     <FaPlay className="text-[#49BBBD] text-center ml-1" size={24} />
                   </div>
-                  <p className="text-white ml-2">Watch how it works</p>
+                  <p className="text-[#252641] text-[24px] ml-2">Watch how it works</p>
                 </div>
               </div>
             </div>

@@ -25,11 +25,11 @@ const Navbar = () => {
               About Us
             </Link>
 
-            <div className="w-[25%] flex items-center justify-between">
-              <button className="bg-white text-black font-bold py-2 px-5 rounded-full font-poppins text-[22px]">
+            <div className="w-[30%] flex items-center justify-between">
+              <button className="bg-white text-black py-2 px-8 rounded-full font-poppins text-[22px] font-extralight tracking-wider leading-8">
                 Login
               </button>
-              <button className="bg-[#7ECBCC] text-white font-bold py-2 px-5 rounded-full font-poppins text-[22px]">
+              <button className="bg-[#7ECBCC] text-white py-2 px-8 rounded-full font-poppins text-[22px] font-extralight tracking-wider leading-8">
                 Sign Up
               </button>
             </div>
