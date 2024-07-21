@@ -1,12 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <>
       <nav className="bg-[#49BBBD] pt-3">
         <div className="container flex items-center justify-between">
-          <div className="flex items-center w-[40%]">TOTC LOGO PLACEHOLDER</div>
+          <div className="flex items-center w-[40%]">
+            <Image src="/logo.svg" width={114} height={83} alt="Logo" />
+          </div>
 
           <div className="flex items-center justify-between w-[70%]">
             <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-[22px]">
