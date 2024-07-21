@@ -1,4 +1,5 @@
 import Navbar from "@/components/landing/Navbar";
+import AchievementContainer from "@/components/landing/achievements/AchievementContainer";
 import HeroContainer from "@/components/landing/hero/HeroContainer";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="w-full">
         <Navbar />
         <HeroContainer />
+        <AchievementContainer />
       </div>
     </div>
     </>
