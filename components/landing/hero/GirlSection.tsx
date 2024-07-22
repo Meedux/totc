@@ -6,16 +6,16 @@ import { MdAnalytics, MdMail } from "react-icons/md";
 const GirlSection = () => {
   return (
     <>
-      <div className="md:col-span-3 col-span-6 relative">
+      <div className="lg:col-span-3 col-span-6 lg:relative flex justify-center lg:mt-0 mt-[7rem]">
         <div className="relative -mt-[10rem] -bottom-[2rem] right-6">
           <Image src={"/girl.png"} width={544} height={292} alt="Girl" />
         </div>
-        <div className="absolute top-0 right-[10rem]">
+        <div className="absolute lg:top-0 right-[10rem]">
           <div className="bg-[#F3627C] shadow-md rounded-lg p-1">
             <MdAnalytics className="text-white" size={47} />
           </div>
         </div>
-        <div className="absolute top-[3.5rem] -left-[4rem]">
+        <div className="absolute lg:top-[3.5rem] lg:-left-[4rem] left-[1rem]">
           <div className="bg-white/80 shadow-md rounded-xl px-4 py-2">
             <div className="flex items-center justify-between">
               <div className="p-2 bg-[#23BDEE] rounded-lg mr-4">
@@ -33,7 +33,7 @@ const GirlSection = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-[15rem] right-[8rem]">
+        <div className="absolute lg:bottom-[15rem] bottom-[40rem] lg:right-[2rem] right-[2rem]">
           <div className="bg-white/90 shadow-md rounded-xl px-4 py-3">
             <div className="flex items-center justify-between">
               <div className="p-2 bg-[#F88C3D] rounded-lg mr-4">
@@ -51,7 +51,7 @@ const GirlSection = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-[7rem] -left-[6rem]">
+        <div className="absolute lg:bottom-[7rem] bottom-[30rem] lg:-left-[6rem] left-[1rem]">
           <div className="bg-white/90 shadow-md rounded-xl px-4 py-3">
             <div className="flex items-start justify-between">
               <div className="relative p-2 bg-[url('/person.png')] bg-cover w-14 h-14 rounded-full mr-4">
