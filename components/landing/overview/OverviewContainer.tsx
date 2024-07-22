@@ -10,7 +10,7 @@ const OverviewContainer = () => {
           <p className="text-[2.3rem] text-[#2F327D] font-bold mb-5">
            All-In-One  <span className="text-[#00CBB8]">Cloud Software.</span>
           </p>
-          <p className="text-[1.5rem] text-[#696984] w-[60rem] font-light text-center">
+          <p className="text-[1.5rem] text-[#696984] lg:w-[60rem] font-light text-center">
             TOTC is one powerful online software suite that combines all the tools needed to run a successful school or office.
           </p>
         </div>
