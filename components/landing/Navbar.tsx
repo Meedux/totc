@@ -12,19 +12,19 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center justify-between w-[70%]">
-            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-[22px]">
+            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-22">
               Home
             </Link>
-            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-[22px]">
+            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-22">
               Courses
             </Link>
-            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-[22px]">
+            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-22">
               Careers
             </Link>
-            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-[22px]">
+            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-22">
               Blog
             </Link>
-            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-[22px]">
+            <Link href="#" className="text-white font-poppins font-extralight tracking-wider leading-8 text-22">
               About Us
             </Link>
 

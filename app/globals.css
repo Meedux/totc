@@ -36,3 +36,13 @@
   height: 3.5rem;
 }
 
+.text-24 {
+  @apply lg:text-[24px] md:text-[20px] sm:text-[16px] text-[12px];
+}
+
+.text-22 {
+  @apply lg:text-[22px] md:text-[18px] sm:text-[14px] text-[10px];
+}
+
+
+

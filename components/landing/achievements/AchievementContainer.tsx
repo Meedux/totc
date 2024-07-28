@@ -5,10 +5,10 @@ const AchievementContainer = () => {
     <>
       <div className="container mt-[10rem]">
         <div className="flex justify-center items-center flex-col mb-[4rem]">
-          <p className="text-[54px] text-[#252641] font-bold mb-5">
+          <p className="text-[12px] sm:text-[20px] md:text-[33px] lg:text-[54px] text-[#252641] font-bold mb-5">
             Our Success
           </p>
-          <p className="text-[24px] text-[#252641] lg:w-[60rem] font-light text-center">
+          <p className="text-24 text-[#252641] lg:w-[60rem] font-light text-center">
             Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae
             sollicitudin at nec nam et pharetra gravida. Adipiscing a quis
             ultrices eu ornare tristique vel nisl orci.{" "}

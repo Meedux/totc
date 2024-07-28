@@ -6,7 +6,7 @@ import GirlSection from "./GirlSection";
 const HeroContainer = () => {
   return (
     <>
-      <div className="pt-[10rem] pb-[2rem] bg-[#49BBBD] overflow-hidden w-full rounded-b-[20%] ">
+      <div className="lg:pt-[10rem] py-[5rem] pb-[2rem] bg-[#49BBBD] overflow-hidden w-full rounded-b-[20%] ">
         <div className="container">
           <div className="grid grid-cols-6 gap-4">
             <HeroSection />

@@ -6,7 +6,7 @@ import { MdAnalytics, MdMail } from "react-icons/md";
 const GirlSection = () => {
   return (
     <>
-      <div className="lg:col-span-3 col-span-6 lg:relative flex justify-center lg:mt-0 mt-[7rem]">
+      <div className="lg:col-span-3 col-span-6 lg:relative justify-center lg:mt-0 mt-[7rem] hidden lg:flex">
         <div className="relative -mt-[10rem] -bottom-[2rem] right-6">
           <Image src={"/girl.png"} width={544} height={292} alt="Girl" />
         </div>
