@@ -7,7 +7,7 @@ const OverviewContainer = () => {
     <>
       <div className="container mt-[10rem]">
         <div className="flex justify-center items-center flex-col mb-[4rem]">
-          <p className="text-[2.3rem] text-[#2F327D] font-bold mb-5">
+          <p className="text-center text-[2.3rem] text-[#2F327D] font-bold mb-5">
            All-In-One  <span className="text-[#00CBB8]">Cloud Software.</span>
           </p>
           <p className="text-24 text-[#696984] lg:w-[60rem] font-light text-center">
